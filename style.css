@@ -1,0 +1,92 @@
+/* Global body */
+body {
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Fredoka One', cursive;
+    background-color: aliceblue;
+    color: #000844;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: linear-gradient(whitesmoke, lightblue, skyblue, lightgreen);
+    text-align: center;
+    padding: 30px 20px;
+    border-bottom: 4px solid #c9f5bb;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+}
+
+header p {
+    font-size: 1.1rem;
+    margin-top: 8px;
+    color: #00124b80;
+    font-weight: 400;
+}
+
+/* Profile/About card */
+.about {
+    padding: 20px;
+    max-width: 700px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+/* Profile image */
+.profile {
+    width: 250px;
+    border-radius: 15px;
+    pointer-events: none; /* non-clickable */
+    margin-bottom: 20px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 0;
+    flex-wrap: wrap;
+}
+
+.destination {
+    display: block;
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: linear-gradient(white, darkblue, skyblue);
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.destination img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.destination span {
+    display: block;
+    height: 80px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.destination:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
